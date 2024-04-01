@@ -1,10 +1,10 @@
-/*classe container para serem aplicadas as propriedades*/
+/*classe container para serem aplicada a grid para ajudar no posicionamento e a cor de fundo*/
 .container {
   display: grid;
   background-color: #506E6A;
 }
 
-/*tratamento para o menu criado com uma lista*/
+/*tratamento para o menu criado com uma lista não ordenada*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,13 +22,13 @@ li a {
 
 }
 
-/* muda a cor do link caso o mouse seja posicionado em cima do link */
+/* muda a cor do link caso o mouse seja posicionado em cima dele fazendo uso de pseudo-classe houver */
 li a:hover {
   background-color: #555;
   color: white;
 }
 
-/*uma classe para centralizara  imagem*/
+/*uma classe para centralizar a imagem chamada centraliza_img*/
 .centraliza_img {
   display: block;
   margin: 0 auto;

@@ -24,11 +24,13 @@
     </br>
     </br>
     </br>
-    <!--As seções foram separadas por divs para customização-->
+    <!--As seções foram separadas por divs para customização, como a declaração da cor de fundo-->
     <div style="background-color: #506E6A;">
+        <!--dentro do header 3 temos algumas declarações que indicam a cor da letra e a margem a esquerda-->
         <h3 id="l1" style="color: white; margin-left: 20px;">Sobre</h3>
     </div>
     <p>Meu nome é Manoel Sarmento Lima Neto, sou casado, e nós temos um filho de 2 anos. Gosto de me exercitar todos os dias as 5:00, acredito que o modo que começamos o nosso dia impacta no decorrer do mesmo. Sempre que não estou trabalhando passo tempo com minha família, gostamos de assistir alguns filmes e comer pipoca.</p>
+    <!--A imagem precisou ser redimencionada usando largura e altura proporcional-->
     <img src="IMG_6966.JPG" class="centraliza_img" width="50%" height="50%"><br>
     <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
 
@@ -38,6 +40,7 @@
     <p>Mestre em engenharia elétrica pela Universidade Federal do Amazonas – UFAM (2017).</p>
     <p>Formação em engenharia elétrica pela Universidade do Estado do Amazonas – UEA (2013).</p>
     <p>Técnico em informática pela Fundação Nokia de Ensino – FNE (2006).</p>
+    <p>Inglês Intermediário</p>
     <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
 
     <div style="background-color: #506E6A;">
@@ -51,23 +54,27 @@
         <h3 id="l4" style="color: white; margin-left: 20px;">Contato</h3>
     </div>
     <p>Email: mslneto@gmail.com</p>
-    <p>LinkedIn: <a href="linkedin.com/in/manoel-sarmento-776864183">linkedin.com/in/manoel-sarmento-776864183</a></p>
+    <p>LinkedIn: linkedin.com/in/manoel-sarmento-776864183</p>
     
     <!--o Form constroi o formulario usado para o contato. Como estamos trabalhando somente a parte visual, nesse caso ele não tem ação-->
     <form action="#" method="POST">
         <!--Os labels para cada campo e os inputs de acordo com o necessário-->
         <label for="nome"> Nome: </label>
+        <!--campo input de texto-->
         <input type="text" name="nome" value="Manoel Sarmento Lima Neto" size="50" maxlength="50">
         </br>
         <label for="email"> Email: </label>
+        <!--campo input de texto-->
         <input type="text" name="email" value="mslneto@gmail.com" size="50" maxlength="50">
         </br>
         </br>
         <label for="mensagem">Digite sua Mensagem:</label>
         </br>
         </br>
+        <!--campo area de texto com 5 linhas e 40 colunas-->
         <textarea name="opiniao" rows="5" cols="40">Digite aqui sua msg...</textarea>
         </br>
+        <!--botão submit do formulario-->
         <input name="Submit" type="submit" id="Submit" value="Enviar">
     </form> 
     </br>   
