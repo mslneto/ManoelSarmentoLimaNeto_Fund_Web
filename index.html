@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head as referencias que serao utilizadas, entre elas o proprio arquivo css -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Links Internos</title>
+</head>
+<!--body onde descrevemos o corpo do site-->
+<body>
+    <header class="container">
+        <h1 id="l5" style="color: white; text-align: center;">CV Online de Manoel Sarmento Lima Neto</h1>
+        <br>
+    </header>
+    <!--Menu foi criado com uma lista e estilizado no style.css-->
+    <ul>
+        <li><a href="#l1">Sobre</a></li>
+        <li><a href="#l2">Formação</a></li>
+        <li><a href="#l3">Portifólio</a></li>
+        <li><a href="#l4">Contato</a></li>
+    </ul>
+    </br>
+    </br>
+    </br>
+    <!--As seções foram separadas por divs para customização-->
+    <div style="background-color: #506E6A;">
+        <h3 id="l1" style="color: white; margin-left: 20px;">Sobre</h3>
+    </div>
+    <p>Meu nome é Manoel Sarmento Lima Neto, sou casado, e nós temos um filho de 2 anos. Gosto de me exercitar todos os dias as 5:00, acredito que o modo que começamos o nosso dia impacta no decorrer do mesmo. Sempre que não estou trabalhando passo tempo com minha família, gostamos de assistir alguns filmes e comer pipoca.</p>
+    <img src="IMG_6966.JPG" class="centraliza_img" width="50%" height="50%"><br>
+    <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
+
+    <div style="background-color: #506E6A;">
+        <h3 id="l2" style="color: white; margin-left: 20px;">Formação</h3>
+    </div>
+    <p>Mestre em engenharia elétrica pela Universidade Federal do Amazonas – UFAM (2017).</p>
+    <p>Formação em engenharia elétrica pela Universidade do Estado do Amazonas – UEA (2013).</p>
+    <p>Técnico em informática pela Fundação Nokia de Ensino – FNE (2006).</p>
+    <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
+
+    <div style="background-color: #506E6A;">
+        <h3 id="l3" style="color: white; margin-left: 20px;">Portifólio</h3>
+    </div>
+    <p>Site 1: <a href="Site1/index.html">Site 1</a></p>
+    <p>Site 2: <a href="Site2/index.html">Site 2</a></p>
+    <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
+
+    <div style="background-color: #506E6A;">
+        <h3 id="l4" style="color: white; margin-left: 20px;">Contato</h3>
+    </div>
+    <p>Email: mslneto@gmail.com</p>
+    <p>LinkedIn: <a href="linkedin.com/in/manoel-sarmento-776864183">linkedin.com/in/manoel-sarmento-776864183</a></p>
+    
+    <!--o Form constroi o formulario usado para o contato. Como estamos trabalhando somente a parte visual, nesse caso ele não tem ação-->
+    <form action="#" method="POST">
+        <!--Os labels para cada campo e os inputs de acordo com o necessário-->
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" value="Manoel Sarmento Lima Neto" size="50" maxlength="50">
+        </br>
+        <label for="email"> Email: </label>
+        <input type="text" name="email" value="mslneto@gmail.com" size="50" maxlength="50">
+        </br>
+        </br>
+        <label for="mensagem">Digite sua Mensagem:</label>
+        </br>
+        </br>
+        <textarea name="opiniao" rows="5" cols="40">Digite aqui sua msg...</textarea>
+        </br>
+        <input name="Submit" type="submit" id="Submit" value="Enviar">
+    </form> 
+    </br>   
+    <a href="#l5"><img  width="2%" height="2%" src="icons-arrow-symbol-arrow-angle-text-triangle.png"></a>
+</body>
+</html>
